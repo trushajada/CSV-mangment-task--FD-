@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+.creat-box {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgb(251, 246, 246) 0px 5px 15px;
+    max-width: 100%;
+}
+
+.nav .nav-link {
+    font-weight: 600;
+    color: #5180ae;
+    transition: color 0.3s ease;
+}
+
+.nav .nav-link:hover {
+    color: #0056b3;
+}
+
+.nav .nav-link.active {
+    color: #5180ae;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #0056b3;
+}
+
+#btn {
+    background-color: #37398dd7;
+    width: 250px;
+}
+
+#btn:hover {
+    background-color: #464291;
+}
